@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7D7D;
+    background-color: #EBEBEB;
+}
+
+/* <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> */
+
+h1 {
+    color: #D64541;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #CCC;
+}
+
+section {
+    width: 50%;
+    margin: 1em auto;
+    padding: 1em;
+    border: solid 2px grey;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 0 0 .5em black;
+}
