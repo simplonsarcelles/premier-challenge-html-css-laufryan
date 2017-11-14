@@ -1,10 +1,16 @@
 body {
     width: 100%;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5rem;
     color: #7D7D7D;
     background-color: #EBEBEB;
 }
+
+
 
 /* <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> */
 
@@ -16,17 +22,32 @@ img {
     width: 200px;
 }
 
+.image-cercle {
+    width: 120px;
+}
+
 a {
     text-decoration: none;
     color: #CCC;
 }
 
-section {
-    width: 50%;
-    margin: 1em auto;
+p {
+    line-height: 2em;
+}
+
+h4, p {
+    text-align: justify;
+}
+
+section, footer {
+    width: 40%;
+    margin: 1.4em auto;
     padding: 1em;
-    border: solid 2px grey;
-    border-radius: 1em;
+    border-radius: .4em;
     background-color: white;
-    box-shadow: 0 0 .5em black;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    text-align: center;
 }
